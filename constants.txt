@@ -1,0 +1,127 @@
+// $galactic-blue: #755cde;
+// $summer-yellow: #f6a560;
+// $medium-brown: #7a746e;
+// $light-cream: #fff7f0;
+// $light-red: #eb7565;
+// $purple: #552049;
+// $black: #030303;
+// $pink: #f39e9e;
+// $cyan: #61c4b7;
+
+// Free Consultation
+
+//   Design solutions made easy
+
+//   With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+
+//   Graphic Design
+//   UI/UX
+//   Apps
+//   Photography
+//   Illustrations
+//   Motion Graphics
+
+//   I’m Amy, and I’d love to work on your next project
+
+//   I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations
+//   to complete mobile apps. I’m also handy with a camera!
+
+//   Free Consultation
+
+//   My Work
+
+//   Book a call with me
+
+//   I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a
+//   free consultation. Then we can move forward from there.
+
+//   Free Consultation
+
+//   Free Consultation
+
+// https://res.cloudinary.com/dz209s6jk/image/upload/v1657881557/Challenges/cuufnbwequw7eme8843i.jpg
+
+// https://github.com/KKS1991/single-page-design-portfolio/tree/730ceaa96f7bdf0eca96017e89a561ff95ecbc40
+// https://github.com/criszmendoza/design-portfolio/blob/e8801bfaddc183354f9db719e37a5b3acb8e2d78/src/style.scss
+// https://github.com/Nikkorey/Single-Page-Design-Portfolio/blob/main/starter-code/style.css
+
+// recursos
+
+// https://webdesign.tutsplus.com/es/tutorials/svg-viewport-and-viewbox-for-beginners--cms-30844
+// https://tailwindcss.com/docs/responsive-design
+// https://www.youtube.com/watch?v=tXlZCW26bto
+
+// https://github.com/criszmendoza/design-portfolio/blob/main/src/components/BaseCarrousel.vue
+
+
+// <div className=' flex flex-col  items-center '>
+    //   <div className='mt-6 w-[90%] sm:w-4/5  '>
+    //     <Header />
+
+    //     <div className='flex  flex-col items-center text-center '>
+    //       <h1 className='mb-7 mt-12 text-5xl font-bold text-black '>
+    //         Design solutions made easy
+    //       </h1>
+    //       <p className=' max-w-lg  text-center text-2xl text-black sm:text-lg'>
+    //         With over ten years of experience in various design disciplines, I’m
+    //         your one-stop shop for your design needs.
+    //       </p>
+    //     </div>
+
+    //     <OptionsGrid />
+
+    //     <Presentation />
+    //   </div>
+    //   <Slider />
+    //   <div className='w-[90%] sm:w-4/5'>
+    //     <Contact />
+    //     <div className='mb-7 mt-7 '>
+    //       <Header />
+    //     </div>
+    //   </div>
+    // </div>
+
+
+
+
+
+
+<>
+      <div className='group relative m-auto h-[780px] w-full max-w-[1400px] px-4 py-16'>
+        <div
+          className={`h-full w-full rounded-2xl bg-cover bg-center duration-500`}
+        >
+          {/* {images.map((slide, i) => ( */}
+          <div
+            style={{ '--image-url': `url(${images[state.activeIndex]})` }}
+            // key={slide + i}
+            className='h-full w-full bg-[image:var(--image-url)] bg-cover bg-center'
+          />
+          {/* ))} */}
+        </div>
+        {/* <div className=''>
+      <img src='/src/assets/image-slide-2.jpg' alt='image-slide-2' />
+    </div> */}
+        {/* <div>
+      <img src='/src/assets/image-slide-3.jpg' alt='image-slide-2' />
+    </div>
+
+    <div>
+      <img src='/src/assets/image-slide-4.jpg' alt='image-slide-2' />
+    </div> */}
+      </div>
+      <div className='mt-5  hidden justify-center gap-8 lg:flex '>
+        <button
+          onClick={prevSlide}
+          className='flex h-14 w-14 items-center justify-center rounded-full bg-black'
+        >
+          <ArrowLeft />
+        </button>
+        <button
+          onClick={nextSlide}
+          className='flex h-14 w-14 items-center justify-center rounded-full bg-black'
+        >
+          <ArrowRight />
+        </button>
+      </div>
+    </>
