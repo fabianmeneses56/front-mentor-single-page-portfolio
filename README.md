@@ -32,6 +32,10 @@ Users should be able to:
 
 ![Mobile-Version](/src/assets/ss_mobile.png)
 
+### Links
+
+- [My Solution - Live](https://benevolent-yeot-4af3ed.netlify.app/)
+
 ## My process
 
 ### Built with
@@ -43,3 +47,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### What I learned
+
+I took this project as my first approach to using Tailwind, I had never used it before, and I definitely learned how to work with it. I have reinforced my understanding of grid styling and image handling.
+
+Additionally, building the slider manually helped me break away from the habit of relying on libraries for this functionality and attempt to create it from scratch. It has taken me some time to accomplish it, as I had never done it before, and also because I was using Tailwind for the styles in this particular case.
