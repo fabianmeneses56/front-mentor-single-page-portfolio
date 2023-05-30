@@ -1,10 +1,10 @@
-import React from 'react'
+import imageAmy from '../assets/image-amy.jpg'
 
 const Presentation = () => {
   return (
     <div className='mb-28 mt-28 flex w-full flex-col items-center justify-between sm:flex-row '>
       <div className='w-full sm:w-2/5 '>
-        <img src='/src/assets/image-amy.jpg' alt='Amy' className='w-full' />
+        <img src={imageAmy} alt='Amy' className='w-full' />
       </div>
 
       <div className=' flex w-full flex-col max-sm:items-center sm:w-2/5'>
